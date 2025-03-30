@@ -33,7 +33,9 @@ Un benchmark es una prueba o conjunto de pruebas diseñadas para medir el rendim
 
 ## Rendimiento de los procesadores para Compilar el Kernel de Linux
 Utilizamos los datos proporcionados en el enlace de referencia y calculando la aceleracion o speedup: 
+
 $$ \text{Rendimiento} = \frac{1}{T} $$
+
 Armamos la siguiente tabla:
 
 | Procesador          | Tiempo (s) | Rendimiento (1/s) | Rendimiento (%)    |
@@ -44,11 +46,14 @@ Armamos la siguiente tabla:
 
 ### Aceleracion del Ryzen 9 7950X
 Para calcular la aceleracion en comparacion a los otros procesadores, usamos la formula:
+
 $$ \text{Speedup} = \frac{Rendimiento Mejorado}{Rendimiento Base} $$
 
 **Comparación con Intel Core i5-13600K**  
+
 $$ \text{Speedup} = \frac{83}{53} = 1.566 $$
 
 **Comparación con AMD Ryzen 9 5900X**  
+
 $$ \text{Speedup} = \frac{97}{53} = 1.830 $$
 
