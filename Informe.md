@@ -38,7 +38,17 @@ Armamos la siguiente tabla:
 
 | Procesador          | Tiempo (s) | Rendimiento (1/s) | Rendimiento (%)    |
 |---------------------|------------|--------------------|-------------------|
-| Intel i5-13600K    | 83 ± 3     | 0.0120             | 1.2%               |
-| AMD Ryzen 9 5900X  | 97 ± 7     | 0.0103             | 1,03%              |
-| AMD Ryzen 9 7950X  | 53 ± 3     | 0.0188             | 1,88%              |
+| Intel i5-13600K    | 83 ± 3     | 0,0120             | 1,2%               |
+| AMD Ryzen 9 5900X  | 97 ± 7     | 0,0103             | 1,03%              |
+| AMD Ryzen 9 7950X  | 53 ± 3     | 0,0188             | 1,88%              |
+
+### Aceleracion del Ryzen 9 7950X
+Para calcular la aceleracion en comparacion a los otros procesadores, usamos la formula:
+$$ \text{Speedup} = \frac{Rendimiento Mejorado}{Rendimiento Base} $$
+
+**Comparación con Intel Core i5-13600K**  
+$$ \text{Speedup} = \frac{83}{53} = 1.566 $$
+
+**Comparación con AMD Ryzen 9 5900X**  
+$$ \text{Speedup} = \frac{97}{53} = 1.830 $$
 
