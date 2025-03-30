@@ -49,11 +49,11 @@ Para calcular la aceleracion en comparacion a los otros procesadores, usamos la 
 
 $$ \text{Speedup} = \frac{Rendimiento Mejorado}{Rendimiento Base} $$
 
-**Comparación con Intel Core i5-13600K**  
+**En comparación con Intel Core i5-13600K**  
 
 $$ \text{Speedup} = \frac{83}{53} = 1.566 $$
 
-**Comparación con AMD Ryzen 9 5900X**  
+**En comparación con AMD Ryzen 9 5900X**  
 
 $$ \text{Speedup} = \frac{97}{53} = 1.830 $$
 
