@@ -57,3 +57,9 @@ $$ \text{Speedup} = \frac{83}{53} = 1.566 $$
 
 $$ \text{Speedup} = \frac{97}{53} = 1.830 $$
 
+
+## Conclusiones del analisis de compilacion del kernel
+
+
+# Practica con ESP32
+
