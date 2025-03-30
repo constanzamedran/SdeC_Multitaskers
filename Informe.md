@@ -31,3 +31,14 @@ Un benchmark es una prueba o conjunto de pruebas diseñadas para medir el rendim
 | Medir el rendimiento de fragmentos de código de Python | pyperf        |
 | Evaluar el rendimiento de bases de datos (especialmente MySQL) | Sysbench      |
 
+## Rendimiento de los procesadores para Compilar el Kernel de Linux
+Utilizamos los datos proporcionados en el enlace de referencia y calculando la aceleracion o speedup: 
+$$ \text{Rendimiento} = \frac{1}{T} $$
+Armamos la siguiente tabla:
+
+| Procesador          | Tiempo (s) | Rendimiento (1/s) | Rendimiento (%)    |
+|---------------------|------------|--------------------|-------------------|
+| Intel i5-13600K    | 83 ± 3     | 0.0120             | 1.2%               |
+| AMD Ryzen 9 5900X  | 97 ± 7     | 0.0103             | 1,03%              |
+| AMD Ryzen 9 7950X  | 53 ± 3     | 0.0188             | 1,88%              |
+
