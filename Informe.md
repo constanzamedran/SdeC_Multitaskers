@@ -13,6 +13,6 @@
 - Jorge, Javier
 - Solinas, Miguel
 
-#Introducción
+# Introducción
 
 El rendimiento y la eficiencia de los sistemas computacionales son aspectos fundamentales en la toma de decisiones relacionadas con hardware y software. En este trabajo práctico, exploramos diversos aspectos del rendimiento de los computadores mediante la aplicación de técnicas de benchmarking y análisis de resultados.
