@@ -58,8 +58,23 @@ $$ \text{Speedup} = \frac{83}{53} = 1.566 $$
 $$ \text{Speedup} = \frac{97}{53} = 1.830 $$
 
 
-## Conclusiones del analisis de compilacion del kernel
+## Time Profiling
+
+Cada integrante del grupo ejecutó el código y se obtuvó una imagen que reúne toda la información de la ejecución realizada, como se muestra a continuación.
+
+### Ejecuciones
+
+![Screenshot from 2025-03-31 10-51-47](https://github.com/user-attachments/assets/d047d6b5-9bba-47b6-a244-2ad3493ad4bd)
+
+En las imágenes se muestra el análisis de tiempo del programa ejecutado por cada miembro del equipo. Este análisis nos proporciona información sobre el tiempo de ejecución de cada función dentro del programa.
+
+En primer lugar, se puede observar que la imagen proporciona información sobre los llamados a las funciones, detallando qué función llamó a cuál y cuántas veces se realizó cada llamado. Además, muestra cómo aumenta el tiempo de ejecución si la función llamada dentro también tarda en completarse. Por ejemplo, new_func1 podría llegar a ser la responsable de que func1 demore la ejecución, pero en este caso no es así.
+
+También, viendo la salida del flat profile que brinda gprof, se puede encontrar que la ejecución 1 parece tener el mejor rendimiento general, ya que completa la ejecución del código más rápidamente (10.21 segundos), seguida de la ejecución 2 (14.61 segundos) y finalmente la ejecución 3 (18.49 segundos). Esto puede ser indicativo de diferencias en el rendimiento del procesador, la memoria, la optimización del sistema operativo o la carga del sistema (procesos en segundo plano) de cada equipo.
+
+A pesar de que el total de tiempo en cada máquina es diferente, las proporciones del tiempo de ejecución dentro de cada máquina (porcentaje de tiempo dedicado a cada función) son relativamente consistentes entre las tres salidas.
+
+Podemos concluir, analizando las tres ejecuciones, que func1 es la función que más tiempo consume, con un porcentaje del tiempo que varía entre el 54.73% y el 58.04%. Esto sugiere que func1 es una función clave en el programa que requiere optimización si se quiere mejorar el rendimiento.
 
 
-# Practica con ESP32
 
